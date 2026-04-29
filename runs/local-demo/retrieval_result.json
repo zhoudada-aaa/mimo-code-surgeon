@@ -1,0 +1,10 @@
+{
+  "source_files": [
+    "README.md",
+    "src/calculator.py"
+  ],
+  "test_files": [
+    "tests/test_calculator.py"
+  ],
+  "reason": "Selected files by matching issue keywords against file paths and code content."
+}

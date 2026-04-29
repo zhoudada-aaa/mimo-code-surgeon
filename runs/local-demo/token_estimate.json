@@ -1,0 +1,24 @@
+{
+  "local_demo_api_tokens": 0,
+  "rough_scanned_repo_tokens": 203,
+  "rough_issue_tokens": 12,
+  "estimated_single_issue_tokens_for_real_model": {
+    "lower_bound": 1000000,
+    "upper_bound": 5000000,
+    "unit": "tokens"
+  },
+  "application_level_estimate": {
+    "repo_initialization": "500,000 - 2,000,000 tokens per medium/large repository",
+    "single_issue_full_loop": "1,000,000 - 5,000,000 tokens per real issue",
+    "daily_processing_20_to_50_issues": "30,000,000 - 200,000,000 tokens per day"
+  },
+  "why_tokens_are_needed": [
+    "Repository-wide long-context reading",
+    "Multi-agent planning and context passing",
+    "Patch generation",
+    "Test log analysis",
+    "Failure repair",
+    "Regression verification",
+    "PR documentation"
+  ]
+}

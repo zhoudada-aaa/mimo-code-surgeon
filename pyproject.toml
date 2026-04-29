@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mimo-code-surgeon"
+version = "0.1.0"
+description = "Multi-agent automated code refactoring and verifiable PR generation system for MiMo/OpenAI-compatible APIs."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "MiMo Code Surgeon Contributors" }
+]
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+mimo-surgeon = "mimo_code_surgeon.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
