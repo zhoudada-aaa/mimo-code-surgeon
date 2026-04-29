@@ -1,0 +1,24 @@
+{
+  "project": "MiMo Code Surgeon",
+  "mode": "mock",
+  "source_repo": "/mnt/data/mimo-code-surgeon/examples/sample_repo",
+  "working_repo": "/mnt/data/mimo-code-surgeon/runs/local-demo/working_repo",
+  "issue": "修复 calculator.divide 在除数为 0 时行为不清晰的问题，并补充测试",
+  "test_command": "python -S -m unittest discover -s tests",
+  "final_status": "passed",
+  "artifacts": [
+    "input_issue.md",
+    "repo_summary.md",
+    "architecture.md",
+    "retrieval_result.json",
+    "plan.md",
+    "test_before.log",
+    "first_patch.diff",
+    "test_first_attempt.log",
+    "repair_notes.md",
+    "repair_patch.diff",
+    "test_after.log",
+    "pr_description.md",
+    "token_estimate.json"
+  ]
+}
